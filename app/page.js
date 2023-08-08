@@ -16,7 +16,7 @@ function page() {
             className="w-96 h-60 md:w-[600px] flex items-center justify-center hover:scale-105 duration-300 cursor-pointer"
             onClick={() => router.push("/download")}
           >
-            <Image src="/../public/assets/logo.png" width={175} height={175} />
+            <div className="w-40 h-40 bg-[url('../public/assets/logo.png')] bg-contain"></div>
             <div className="w-0 text-[0px] ml-0 lg:m-16 h-0 lg:text-6xl lg:h-16 lg:w-60  text-white text-6xl font-bold">
               {" "}
               GARHU!
